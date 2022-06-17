@@ -11,8 +11,8 @@ display: block;
 width: 170px!important;
 height: 44px!important;
 align-self: center;
-background: transparent url('https://docs.alertlogic.com/Resources/Images/AlertLogicByHelpSystems-Logo.png') no-repeat center center;
--pie-background: transparent url('https://docs.alertlogic.com/Resources/Skins/Fluid/Stylesheets/Images/AlertLogicByHelpSystems-Logo.png') no-repeat center center;
+background: transparent url('https://docs.alertlogic.com/Skins/Fluid/Stylesheets/Images/AlertLogicByHelpSystems-Logo.png') no-repeat center center;
+-pie-background: transparent url('https://docs.alertlogic.com/Skins/Fluid/Stylesheets/Images/AlertLogicByHelpSystems-Logo.png') no-repeat center center;
 background-size: 100%!important;
 }
 
