@@ -1,1 +1,150 @@
-body {background-color: pink;}
+.off-canvas-wrapper-inner nav.title-bar .outer-row {
+ max-width: 100%!important;
+}
+
+.title-bar-layout a.logo {
+border: none;
+padding: 0;
+margin: 0;
+z-index: 1;
+display: block;
+width: 170px!important;
+height: 44px!important;
+align-self: center;
+background: transparent url('Images/AlertLogicByHelpSystems-Logo.png') no-repeat center center;
+-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/AlertLogicByHelpSystems-Logo.png') no-repeat center center;
+background-size: 100%!important;
+}
+
+.nav-search-wrapper {
+flex: 0!important;
+flex-basis: auto!important;
+}
+
+.off-canvas-wrapper-inner nav.title-bar .outer-row {
+display: flex!important;
+align-items: center!important;
+}
+
+.navigation-wrapper {
+float: none!important;
+flex: 1!important;
+align-self: center!important;
+display: flex;
+order: 2;
+justify-content: center!important;
+}
+
+body, html, * {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif!important;
+    line-height:1.5!important;
+}
+
+ul.navigation a {
+font-size: 0.9rem!important;
+font-weight: normal;
+}
+
+nav.title-bar {
+padding-top: 0!important;
+padding-bottom: 0!important;
+background-color: #3C3C3C!important;
+}
+
+a.link, .xref {
+text-decoration: none!important;
+color: #217aa7!important;
+}
+
+.search-bar .search-field {
+line-height: auto!important;
+top: 0;
+left: 0;
+position: relative;
+height: auto!important;
+border:0!important;
+border-radius:4px!important;
+color: #5F5F5F;
+font-size: 0.8em;
+background-color: #ffffff;
+padding:0.25rem 0.5rem!important;
+}
+
+.search-field::placeholder {
+  font-size: 0.8rem;
+}
+
+.search-bar .search-submit {
+  background: #fff url('Images/SearchIcon.png') no-repeat center center!important;
+  background-size:12px auto!important;
+  border-top-right-radius:4px!important;
+  border-bottom-right-radius:4px!important;
+  height:35px!important;
+  width:35px!important;
+  display:none!important;
+}
+
+td.stripe {
+padding-top: 0!important;
+}
+
+td.links {
+  padding-bottom:1rem;
+}
+
+td.stripe img {
+width: 60px!important;
+}
+
+td > div {
+border:0!important;
+padding:0!important;
+}
+
+div.mini-box {
+ padding-left:0!important;
+ width:50%!important;
+}
+
+.mini-box p {
+  margin-bottom:0;
+  max-width:80%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top:0!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform:lowercase;
+}
+
+h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter, h5::first-letter, h6::first-letter {
+  text-transform:uppercase!important;
+}
+
+h3.charcoal, h5.charcoal {
+text-transform: capitalize!important;
+margin-bottom:0.7rem!important;
+}
+
+table {
+  max-width:1200px!important;
+}
+
+.breadcrumbs {
+  font-size:0.8rem!important;
+}
+
+div.MCBreadcrumbsBox_0 {
+ border-bottom-color: #ccc!important;
+ margin-bottom:20px!important;
+}
+
+div.menu {
+   width:340px!important;
+}
+
+#mc-main-content {
+   /*max-width:800px!important; need to limit to inner pages */
+}
